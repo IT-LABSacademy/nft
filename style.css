@@ -28,6 +28,15 @@
     font-weight: 700;
 }
 
+:root {
+    --dark: #3b3b3b;
+    --white: #ffffff;
+    --black: #000000;
+    --purple: #a259ff;
+    --background-color: #2b2b2b;
+    --text-color: #858585;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -51,4 +60,13 @@ button {
 
 body {
     font-family: 'Sans-400', sans-serif;
+    background: var(--background-color);
 }
+
+/* General */
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+/* Header */
