@@ -69,4 +69,113 @@ body {
     margin: 0 auto;
 }
 
+.btn {
+    background: var(--purple);
+    color: var(--white);
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Sans-600', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
 /* Header */
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header .container .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header .container .menu .link {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Sans-600', sans-serif;
+    color: var(--white);
+}
+
+/* Main */
+.main .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: var(--white);
+}
+
+.main .container .left,
+.main .container .right {
+    width: 510px;
+}
+
+/* left */
+.main .container .left h1 {
+    font-size: 67px;
+    font-weight: 600;
+    font-family: 'Sans-600';
+    line-height: 74px;
+}
+
+.main .container .left .subtitle {
+    font-size: 22px;
+    line-height: 35px;
+    margin: 30px 0;
+}
+
+.main .container .left .btn {
+    padding: 20px 50px;
+}
+
+.main .container .left .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main .container .left .wrapper .number h3 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Mono-700', sans-serif;
+    line-height: 40px;
+}
+
+.main .container .left .wrapper .number p {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.main .container .right .card{
+    background: var(--dark);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main .container .right .card .content{
+    padding: 22px 20px;
+}
+
+.main .container .right .card .content h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Sans-600', sans-serif;
+    margin-bottom: 10px;
+}
+
+.main .container .right .card .content .profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
